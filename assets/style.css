@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #baf5ff;
+    background: #00bcdd;
 }
 
 /* BUTTONS */
@@ -27,7 +27,7 @@ body {
 .start_btn button {
     font-size: 25px;
     font-weight: 500;
-    color: #ff6868;
+    color: #0084ff;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -37,7 +37,7 @@ body {
 }
 
 .start_btn button:hover {
-    background: #ff6868;
+    background: #0084ff;
     color: white;
 }
 
@@ -116,6 +116,7 @@ body {
 
 /*  QUIZ BOX STYLING */
 .quiz_box {
+    display: none;
     width: 550px;
     background: white;
     border-radius: 5px;
@@ -236,3 +237,87 @@ section .option_list .option:hover {
     border-color: #a4283a;
     background: #ecced2;
 }
+
+/* FOOTER SECTION */
+.quiz_box footer {
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz_box footer .total_que span {
+    display: flex;
+    user-select: none;
+}
+
+footer .total_que span p {
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+.total_que span p:first-child {
+    padding-left: 0px;
+}
+
+footer .next_btn {
+    color: white;
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: #0084ff;
+    border-radius: 5px;
+    border: 1px solid #0084ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .next_btn:hover {
+    background: #00498a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
