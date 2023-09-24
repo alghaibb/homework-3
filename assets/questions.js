@@ -35,7 +35,7 @@ let questions = [
     },
     {
       numb: 4,
-      question: "What is the purpose of the HTML <a> tag?",
+      question: "What is the purpose of the HTML `a` tag?",
       answer: "Creating hyperlinks to other web pages",
       options: [
         "Adding images to a webpage",
